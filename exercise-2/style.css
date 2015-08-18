@@ -1,19 +1,50 @@
-/* Exercise 1 */
 p {
-  color: green
+  color: green;
 }
 
+/*
+padding and margin: top, right, bottom, left (TRBL)
+e.g. padding: 10px, 30px, 15px, 40px;
+*/
+
+img {
+  padding-right: 10px;
+}
+
+li {
+  display: inline; 
+  margin-right: 25px;
+}
+/*
+alternatively, can use float to display horizontally
+i.e. float: left; 
+*/
+
 h1 {
-  text-align: center
+  text-align: center;
+  margin-top: 60px 
 }
 
 a {
   text-decoration: none
 }
 
-html {
+nav {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+/*border syntax: width type color*/
+
+body {
   font-family: Helvetica Neue, Arial;
-  background: whitesmoke;
+  background-image: url(http://placekitten.com.s3.amazonaws.com/homepage-samples/200/287.jpg);
+/*  background-repeat: no-repeat;*/
+  background-color: whitesmoke;
 }
 
 
@@ -41,6 +72,5 @@ html {
 
 *****************************************************************************
 */
-
 
 
