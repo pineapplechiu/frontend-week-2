@@ -54,6 +54,17 @@ Write CSS for the following:
   3. Give paragraphs that are descendants of the element with the id of “main” a left margin of 30 pixels
   4. Give blockquotes a background image of: http://bit.ly/1IlHeMx
   5. Give unordered lists that are the direct children of nav elements a blue text color
+  6. Make one image float left of text and the second image float to the right
+    (you can change the HTML to accomplish this, but see if you can find a way
+    where you don't have to)
+
+BONUS:
+  1. After step 6 above, you might notice some weird overlapping going on. How can you fix it?
+    Hint: google "css float" and "css clear" to understand what is happening
+  2. Make links bolded and underlined when you hover over them
+  3. Make the first element in a list underlined
+  4. Make every odd element of a list have a light gray background
+
 
 HTML + CSS cheatsheet: http://bit.ly/1f6nQFz
 CSS Selectors Cheatsheet: http://bit.ly/1g2Yk1k
