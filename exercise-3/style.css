@@ -24,12 +24,7 @@ img {
   padding-right: 10px;
 }
 
-nav li {
-  display: inline;
-  margin-right: 15px;
-}
-
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -37,6 +32,13 @@ nav{
   width: 100%;
   border: 1px solid gray;
 }
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+/* exercise-3 */
 
 #about {
   border: 1px solid green;
@@ -54,6 +56,36 @@ blockquote {
   background-image: url(http://www.psdgraphics.com/wp-content/uploads/2013/08/energy-efficiency-background.jpg);
 }
 
+nav > ul {
+  color: blue;
+}
+
+#about img {
+  float: left;
+}
+
+#about .image-2 {
+  float: right;
+}
+
+#about:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+li:first-child {
+  text-decoration: underline;
+} 
+
+li:nth-child(2n+1) {
+  background-color: lightgray; 
+}
 
 /*******************************************************************************
 
